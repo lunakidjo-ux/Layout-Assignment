@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <div class="pic">
+            <img class="logo" src="../img/logo.svg">
+        </div>
+        <div class="form">
+            <h1>Get iintoo it today.</h1>
+            <p>There is mo change or obligation upon registration</p>
+            <fieldset> ##FACEBOOK & LINKDIN###</fieldset> 
+            <fieldset>
+                <p>Email <input type="email"></p>
+                <p>Phone <input type="number" ></p>
+            </fieldset>
+            <fieldset>
+                <p>What type of investor are you?</p>
+                <label for="individual"><input id="individual" type="radio" name="investor-type"  checked><span class="tooltip" tabindex="0" aria-label="definition: inidiviual">Individual<span class="tooltip__bubble" role="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span></span></label>
+                <label for="business"><input id="business" type="radio" name="investor-type"  >Business</label>
+                <label for="ira"><input id="ira" type="radio" name="investor-type">IRA</label>
+                <label for="trust"><input id="trust" type="radio" name="investor-type">Trust</label>
+            </fieldset>
+            <fieldset>
+             <label for="tems"><input id="terms" type="radio" required>agree to the terms and receiving notifications from iintoo <a link href="##">View full terms</a></label>
+            <br>
+            <br>
+            <input id="create" type="submit" name="Create Account" placeholder="Create Account" >
+            </fieldset>
+        </div>
+    </body>
+</html>
