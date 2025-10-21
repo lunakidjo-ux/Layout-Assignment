@@ -6,30 +6,58 @@
        <link rel="stylesheet" href="styles.css"> 
     </head>
     <body>
+        <div class="container">
         <div class="pic">
-            <img class="logo" src="../img/logo.svg">
+         <img class="bg" src="./img/bg.jpg" alt="left-img" />
+         <img class="logo" src="./img/logo.svg" /> 
         </div>
         <div class="form">
             <h1>Get iintoo it today.</h1>
-            <p>There is mo change or obligation upon registration</p>
-            <fieldset> ##FACEBOOK & LINKDIN###</fieldset> 
-            <fieldset>
-                <p>Email <input type="email"></p>
-                <p>Phone <input type="number" ></p>
-            </fieldset>
-            <fieldset>
-                <p>What type of investor are you?</p>
+            <p>There is no change or obligation upon registration</p>
+           <fieldset class="btns">
+               <button class="icon-btn fb">
+               <img class="icon" src="./img/facebook.svg" alt="fb" />
+               <label>Register with Facebook</label>
+            </button>
+               <button class="icon-btn ln">
+               <img class="icon" src="./img/linkedin.svg" alt="ln" />
+               <label>Register with LinkedIn</label>
+                    </button>
+           </fieldset> 
+           <br>
+           <div class="or">OR</div>
+           <br>
+             <fieldset class="inputs">
+                <label class="input">
+                    <span>Email</span>
+                         <input type="email" />
+                </label>
+                <label class="input">
+                     <span>Phone</span>
+                        <input type="number" />
+                </label>
+              </fieldset>
+              <br>
+              <fieldset>
+                <h2>What type of investor are you?</h2>
+                <p>Select the type of investor you are below.</p>
+              <br>
                 <label for="individual"><input id="individual" type="radio" name="investor-type"  checked><span class="tooltip" tabindex="0" aria-label="definition: inidiviual">Individual<span class="tooltip__bubble" role="tooltip">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span></span></label>
-                <label for="business"><input id="business" type="radio" name="investor-type"  >Business</label>
-                <label for="ira"><input id="ira" type="radio" name="investor-type">IRA</label>
-                <label for="trust"><input id="trust" type="radio" name="investor-type">Trust</label>
+                <label for="business"><input id="business" type="radio" name="investor-type"  ><span class="tooltip" tabindex="0" aria-label="definition: inidiviual">Business<span class="tooltip__bubble" role="tooltip">We are an organization or enterprising entity.</span></span></label>
+                <label for="ira"><input id="ira" type="radio" name="investor-type"><span class="tooltip" tabindex="0" aria-label="definition: inidiviual">IRA<span class="tooltip__bubble" role="tooltip">Individual Retirement Account.</span></span></label>
+                <label for="trust"><input id="trust" type="radio" name="investor-type"><span class="tooltip" tabindex="0" aria-label="definition: inidiviual">Trust<span class="tooltip__bubble" role="tooltip">Holding assets.</span></span></label>
             </fieldset>
+              <br>
+              <br>
+              <fieldset>
+                    <label for="terms" class="terms"><input id="terms" type="radio" required> Agree to the terms and receiving notifications from iintoo <a link href="##">View full terms</a></label>
+              </fieldset>        
+            
+            <br>
             <fieldset>
-             <label for="tems"><input id="terms" type="radio" required>agree to the terms and receiving notifications from iintoo <a link href="##">View full terms</a></label>
-            <br>
-            <br>
-            <input id="create" type="submit" name="Create Account" placeholder="Create Account" >
+            <input id="create" type="submit" value="Create Account">
             </fieldset>
+        </div>
         </div>
     </body>
 </html>
