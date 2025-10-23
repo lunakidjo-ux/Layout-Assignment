@@ -24,6 +24,7 @@
  display: flex;
  width: 68%;
  height: 80%;
+ background-color: white;
 }
 
 .pic {
@@ -112,6 +113,7 @@ p {
     width: 50%;
     position: right;
     margin: 30px;
+  
 }
 
  .inputs {
